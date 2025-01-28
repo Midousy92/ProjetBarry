@@ -146,3 +146,83 @@ body {
     transform: scale(1.1); /* Agrandit légèrement la carte au survol */
     box-shadow: 0 6px 12px rgba(0, 255, 0, 0.3); /* Ajoute une ombre verte subtile au survol */
 }
+
+
+.logo-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 255, 0, 0.3);
+}
+
+/* Media Queries pour le responsive design */
+
+/* Pour les écrans de taille moyenne (tablettes) */
+@media (max-width: 768px) {
+    .navbar {
+        margin: 0 5%;
+    }
+
+    .profil {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 5%;
+    }
+
+    .profil-text {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .profile-image {
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+    .wroked-text h2 {
+        margin-left: 0;
+    }
+
+    .logo-card {
+        width: 120px;
+        height: 40px;
+    }
+}
+
+/* Pour les petits écrans (smartphones) */
+@media (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .social-links {
+        margin-top: 10px;
+    }
+
+    .profil {
+        padding: 20px 5%;
+    }
+
+    .profile-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .button-1 {
+        font-size: 16px;
+    }
+
+    .logos {
+        gap: 10px;
+    }
+
+    .logo-card {
+        width: 100px;
+        height: 30px;
+    }
+}
