@@ -1,151 +1,143 @@
-/* Configuration générale du site web */
 body {
-    margin: 0; /* Supprime les marges par défaut du navigateur */
-    font-family: Arial, sans-serif; /* Définit la police principale */
-    background-color: #000; /* Définit la couleur de fond en noir */
-    color: #fff; /* Définit la couleur du texte en blanc */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
 }
 
-/* Barre de navigation (navbar) */
-
 .navbar {
-    display: flex; /* Utilise un modèle de boîte flex pour aligner les éléments */
-    justify-content: space-between; /* Espace égal entre les éléments */
-    align-items: center; /* Aligne les éléments verticalement au centre */
-    padding: 20px; /* Ajoute un espace interne autour de la barre */
-    margin-top: 0; /* Aucun espace en haut */
-    margin-left: 100px; /* Ajoute un espace à gauche de 100px */
-    margin-right: 100px; /* Ajoute un espace à droite de 100px */
-    background-color: #111; /* Couleur de fond légèrement plus claire que le noir */
-    border-radius: 0 0 7px 7px; /* Arrondi les coins inférieurs */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #111;
+    border-radius: 0 0 7px 7px;
 }
 
 .navbar ul {
-    list-style-type: none; /* Supprime les puces des listes */
-    margin: 0; /* Supprime les marges externes */
-    margin-left: 50px; /* Ajoute une marge gauche pour espacer les liens */
-    padding: 0; /* Supprime les marges internes */
-    display: flex; /* Affiche les éléments de la liste sur une seule ligne */
-    gap: 20px; /* Ajoute un espace de 20px entre les liens */
+    list-style-type: none;
+    margin: 0;
+    margin-left: 50px;
+    padding: 0;
+    display: flex;
+    gap: 20px;
 }
 
 .navbar a {
-    text-decoration: none; /* Supprime le soulignement des liens */
-    color: #AAA; /* Définit la couleur des liens en gris clair */
-    font-weight: bold; /* Met en gras le texte des liens */
+    text-decoration: none;
+    color: #AAA;
+    font-weight: bold;
 }
 
 .social-links a img {
-    width: 20px; /* Définit la largeur des icônes sociales */
-    margin-left: 20px; /* Ajoute un espace à gauche des icônes */
-    margin-right: 12px; /* Ajoute un espace à droite des icônes */
+    width: 20px;
+    margin-left: 20px;
+    margin-right: 12px;
 }
 
-/* Section du profil utilisateur */
-
 .profil {
-    display: flex; /* Modèle flex pour positionner les éléments */
-    justify-content: space-between; /* Espacement entre les sections (texte et image) */
-    align-items: center; /* Aligne les éléments verticalement au centre */
-    padding: 50px 10%; /* Ajoute un espace interne (haut/bas : 50px, gauche/droite : 10%) */
-    text-align: left; /* Aligne le texte à gauche */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+    text-align: left;
 }
 
 .profil-text {
-    max-width: 50%; /* Limite la largeur du texte à 50% de l'espace */
-    margin-left: 45px; /* Ajoute un espace à gauche */
+    max-width: 50%;
+    margin-left: 45px;
 }
 
 .profil-text p {
-    color: #AAA; /* Définit la couleur du texte du paragraphe en gris clair */
+    color: #AAA;
 }
 
 .profile-image {
-    border-radius: 50%; /* Rend l'image circulaire */
-    width: 200px; /* Définit la largeur de l'image */
-    height: 200px; /* Définit la hauteur de l'image */
-    object-fit: cover; /* Ajuste l'image pour qu'elle remplisse l'espace sans se déformer */
-    margin-right: 180px; /* Ajoute un espace à droite de l'image */
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 180px;
 }
 
 .button-1 {
-    background-color: #00831f; /* Couleur de fond verte */
-    border: none; /* Supprime les bordures */
-    padding: 10px 20px; /* Espace interne (haut/bas : 10px, gauche/droite : 20px) */
-    color: #fff; /* Texte en blanc */
-    font-size: 20px; /* Taille de la police */
-    font-weight: bold; /* Texte en gras */
-    cursor: pointer; /* Change le curseur en "main" au survol */
-    border-radius: 5px; /* Coins arrondis */
-    margin-top: 20px; /* Ajoute un espace au-dessus du bouton */
+    background-color: #00831f;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
 }
 
 .button-1:hover {
-    transform: scale(1.1); /* Agrandit légèrement le bouton au survol */
-    box-shadow: 0 6px 12px rgba(0, 255, 0, 0.3); /* Ajoute une ombre verte subtile */
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 255, 0, 0.3);
 }
 
-/* Section "Worked With" (logos des entreprises partenaires) */
-
 .worked-with .logos {
-    justify-content: center; /* Centre les logos horizontalement */
-    gap: 20px; /* Ajoute un espace de 20px entre les logos */
-    margin-top: 20px; /* Ajoute un espace au-dessus des logos */
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
 }
 
 .worked-with img {
-    width: 60px; /* Définit la largeur des images des logos */
-    margin-right: 25px; /* Ajoute un espace à droite de chaque logo */
-    align-items: center; /* Aligne les images verticalement */
+    width: 60px;
+    margin-right: 25px;
+    align-items: center;
 }
 
 .worked-with {
-    text-align: center; /* Centre le texte et les éléments à l'intérieur de cette section */
-    padding: 40px 10%; /* Ajoute un espace interne (haut/bas : 40px, gauche/droite : 10%) */
-    background-color: #111; /* Couleur de fond en noir clair */
+    text-align: center;
+    padding: 40px 10%;
+    background-color: #111;
 }
 
 .wroked-text h2 {
-    margin-left: 290px; /* Décale le titre vers la droite */
-    margin-bottom: 20px; /* Ajoute un espace sous le titre */
-    font-size: 15px; /* Taille de police plus petite */
-    color: #fff; /* Texte blanc */
+    margin-left: 290px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #fff;
 }
 
-/* Style des cartes de logos */
-
 .logos {
-    display: flex; /* Affiche les logos sur une seule ligne */
-    justify-content: center; /* Centre les logos horizontalement */
-    flex-wrap: wrap; /* Permet de passer à une nouvelle ligne si nécessaire */
-    gap: 20px; /* Ajoute un espace de 20px entre les logos */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .logo-card {
-    display: flex; /* Modèle flex pour centrer les images à l'intérieur */
-    justify-content: center; /* Centre horizontalement les images des logos */
-    align-items: center; /* Centre verticalement les images des logos */
-    width: 150px; /* Définit la largeur de chaque carte */
-    height: 50px; /* Définit la hauteur de chaque carte */
-    background-color: #000; /* Couleur de fond noir */
-    border: 1px solid #333; /* Bordure grise foncée */
-    border-radius: 8px; /* Coins arrondis */
-    padding: 10px; /* Ajoute un espace interne autour des images */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ajoute une ombre subtile */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Ajoute une animation au survol */
-    cursor: pointer; /* Change le curseur en "main" au survol */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    background-color: #000;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
 }
 
 .logo-card img {
-    max-width: 100%; /* Assure que l'image ne dépasse pas la largeur maximale */
-    max-height: 100%; /* Assure que l'image ne dépasse pas la hauteur maximale */
-    filter: brightness(0) invert(1); /* Rend les logos blancs sur un fond sombre */
+    max-width: 100%;
+    max-height: 100%;
+    filter: brightness(0) invert(1);
 }
 
 .logo-card:hover {
-    transform: scale(1.1); /* Agrandit légèrement la carte au survol */
-    box-shadow: 0 6px 12px rgba(0, 255, 0, 0.3); /* Ajoute une ombre verte subtile au survol */
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 255, 0, 0.3);
 }
+
 
 
 .logo-card:hover {
